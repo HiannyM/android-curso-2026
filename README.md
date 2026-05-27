@@ -5,7 +5,7 @@
 		• Instalar y configurar Android Studio, JDK 17 y el Android Virtual Device (AVD).
 		• Crear y conectar el repositorio GitHub del curso.
 		• Ejecutar el primer proyecto Android en el emulador.
-		• dentificar los archivos clave de un proyecto Android moderno.
+		• Identificar los archivos clave de un proyecto Android moderno.
 	Cuestionario:
 		1. app/src/main/AndroidManifest.xml
 			○ ¿Qué contiene? Contiene la configuración de la aplicación. Incluye el nombre de la app, su icono, los permisos que necesita (como usar internet o la cámara) y una lista de todas las pantallas (Activities) y servicios que componen la aplicación. Sin este archivo, Android no sabría cómo arrancar la app.
@@ -17,3 +17,7 @@
 			○ ¿Qué versión de Kotlin está configurada? 2.2.10
 		4. app/src/main/java/.../MainActivity.kt
 			○ ¿Qué función llama para mostrar la UI? Se llama habitualmente HolaAndroidTheme.
+<p>Modifica el texto que muestra la app: abre MainActivity.kt y cambia el texto 'Hello Android!' por 'Hola, [Tu Nombre]!'. 
+Ejecuta la app en el AVD para verificar el cambio.</p>
+<h2>Resultado</h2>
+<img width="457" height="883" alt="image" src="https://github.com/user-attachments/assets/7360b78f-7a15-41dc-a9f3-0c6e6da03396" />
