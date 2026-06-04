@@ -5,14 +5,7 @@ package com.marte.holaandroid
 
 //***Ej. 1 Null-safety: validador de formulario***//
 
-fun main() {
-    // Al darle Play aquí, se ejecutarán las funciones en orden:
-//    validarUsuario(null , null)
-    usuarios()
-    notas()
-    listaEstudiantes()
 
-}
 data class ResultadoValidacion(val esValido: Boolean, val mensaje: String)
 
 fun validarUsuario(nombre: String?, email: String?): ResultadoValidacion {
