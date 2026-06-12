@@ -1,11 +1,10 @@
 package com.marte.holaandroid
-
+import java.io.PrintStream
+import java.nio.charset.StandardCharsets
 
 //******* PRÁCTICA 3 — NULL-SAFETY Y COLECCIONES ********//
 
 //***Ej. 1 Null-safety: validador de formulario***//
-
-
 data class ResultadoValidacion(val esValido: Boolean, val mensaje: String)
 
 fun validarUsuario(nombre: String?, email: String?): ResultadoValidacion {
@@ -125,5 +124,15 @@ fun listaEstudiantes() {
     val estudianteTop = estudiantes.maxByOrNull { it.value }
     println("Estudiante con la nota más alta: ${estudianteTop?.key} (${estudianteTop?.value})")
 
+    fun main (){
+        System.setOut(PrintStream(System.out, true, StandardCharsets.UTF_8))//Para imorimir caracteres como la tilde correctamente
+        println("===  EJERCICIO 1: USUARIOS ===")
+        usuarios()
 
+        println("\n===  EJERCICIO 2: NOTAS ===")
+        notas()
+
+        println("\n===  EJERCICIO 3: ESTUDIANTES ===")
+        listaEstudiantes()
+    }
 }
