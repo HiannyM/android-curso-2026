@@ -1,12 +1,14 @@
 //***** Ej. 1 val, var e inferencia de tipos *****//
 package com.Marte.holaandroid
+import java.io.PrintStream
+import java.nio.charset.StandardCharsets
 import java.util.Scanner
 
 fun ejercicio1 (){
     println("--- Ejercicio 1: Variables y Plantillas ---")
 
     // val: valor inmutable (no se puede reasignar)
-    val nombreCurso = "Programacion Movil I"
+    val nombreCurso = "Programación Móvil I"
     val añoInicio: Int = 2026
 
     // var: variable mutable (puede reasignarse)
@@ -18,11 +20,11 @@ fun ejercicio1 (){
     println("Calificacipn actual: ${calificacion * 0.3} (30%)")
 
     // TODO 1: Declara una val con tu nombre completo
-    val nombreCompleto = "Hianny Angelica Marte Rodriguez"
+    val nombreCompleto = "Hianny Angélica Marte Rodríguez"
     // TODO 2: Declara una var con tu edad actual
     var edadActual = 22
-    // TODO 3: Imprime: "Me llamo X y tengo Y anios"
-    println("Me llamo $nombreCompleto y tengo $edadActual anios")
+    // TODO 3: Imprime: "Me llamo X y tengo Y años"
+    println("Me llamo $nombreCompleto y tengo $edadActual años")
 };
 
 
@@ -70,6 +72,7 @@ fun tablaMultiplicar(n: Int) {
 }
 
 fun main() {
+    System.setOut(PrintStream(System.out, true, StandardCharsets.UTF_8)) //Para imorimir caracteres como la tilde correctamente
     ejercicio1()
 
     // Ejecutamos el ejercicio 2
