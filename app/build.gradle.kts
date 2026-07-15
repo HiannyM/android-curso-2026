@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.marte.holaandroid"
+    namespace = "com.marte.primerapp"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.marte.holaandroid"
+        applicationId = "com.marte.primerapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -23,11 +23,9 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            optimization {
+                enable = false
+            }
         }
     }
     compileOptions {
@@ -55,4 +53,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    implementation("androidx.compose.material:material-icons-extended")
 }
