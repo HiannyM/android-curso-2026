@@ -81,6 +81,46 @@ Modelado de un Sistema de Gestión Académica aplicando los pilares de POO (Here
 
 </details>
 
+<details>
+<summary><b>📝 Práctica 6: Clases Especiales en Kotlin</b></summary>
+
+### 🎯 Descripción
+Implementar diferentes tipos de clases especiales aplicando enum, sealed y data class.
+
+#### 📸 Captura de Ejecución
+<img width="1084" height="698" alt="image" src="https://github.com/user-attachments/assets/1dcb921b-1601-44f9-a538-7a8354aae0c0" />
+
+
+</details>
+
+<details>
+<summary><b>📝 Práctica 7: Anatomia Android y Composables Basicos</b></summary>
+
+### 🎯 Descripción
+En un nuevo proyecto en Android Studio "PrimerApp" indentificaremos los archivos clave de un proyecto Android, su estrutura , usar funciones fundamentales @Composable, Usar @Preview  y registrar mensajes de depuración con Log y visualizarlos en Logcat.
+
+### 🗒️Cuestionario:
+<h3>Explorar y anotar la estructura </h3>
+
+	1. ¿Qué hace la función setContent {} en MainActivity.kt? 
+		- Se utiliza para definir la interfaz de usuario de la aplicación usando Jetpack Compose. Todo el contenido que se coloca dentro de sus llaves será el diseño que se mostrará en la pantalla de la actividad.
+	2. ¿Qué significan minSdk, targetSdk y compileSdk en build.gradle.kts? 
+		- minSdk: Indica la versión mínima de Android en la que la aplicación puede instalarse y ejecutarse.
+		Ejemplo: minSdk = 24 significa que la aplicación funciona desde Android 7.0 (API 24).
+		- targetSdk: Es la versión de Android para la que la aplicación está optimizada y probada. Android utiliza este valor para aplicar el comportamiento adecuado de esa versión.
+		- compileSdk: Es la versión del SDK utilizada para compilar la aplicación. Permite usar las APIs más recientes durante el desarrollo, aunque la aplicación pueda ejecutarse en versiones anteriores si cumplen con el minSdk.
+	3. ¿Para qué sirve el archivo libs.versions.toml? 
+		- Sirve para administrar de forma centralizada las versiones de las dependencias y plugins del proyecto.
+	4. ¿Qué anotación convierte una función en un componente de UI en Compose? 
+		- @Composable
+
+#### 📸 Captura de Ejecución
+<img width="552" height="763" alt="image" src="https://github.com/user-attachments/assets/f8046872-ab46-4367-aef9-8bb17f34b35a" />
+<img width="1762" height="185" alt="image" src="https://github.com/user-attachments/assets/d7c3a8bc-2cbf-4d66-a51f-a4690bad94f0" />
+
+
+</details>
+
 ## 🗂️ Índice de ejercicios de los examenes parciales
 
 <details>
