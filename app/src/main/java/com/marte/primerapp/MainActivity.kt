@@ -93,7 +93,7 @@ fun PantallaInicio(modifier: Modifier = Modifier) {
         // TAREA 22: Botón 2 con Log.i y tu nombre
         Button(
             onClick = {
-                Log.i(TAG, "Presionado por: Hianny Marte ;)")
+                Log.i(TAG, "Presionado por: Hianny Marte \uD83D\uDE0A")
             },
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.secondary
