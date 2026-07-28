@@ -19,7 +19,7 @@ fun main() {
 
     // (b) Demostración de la función fizzBuzz()
     println("[2] EJECUCIÓN DE FIZZBUZZ (1 al 30):")
-    fizzBuzz()
+    fizzBuzz2()
 
     println("==================================================")
 }
@@ -46,7 +46,7 @@ fun clasificarNota(nota: Int): String {
  * - Múltiplos de 5 imprimen "Buzz".
  * - En cualquier otro caso, imprime el número.
  */
-fun fizzBuzz() {
+fun fizzBuzz2() {
     for (i in 1..30) {
         when {
             i % 3 == 0 && i % 5 == 0 -> print("FizzBuzz ")
