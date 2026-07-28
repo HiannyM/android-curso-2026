@@ -117,7 +117,28 @@ En un nuevo proyecto en Android Studio "PrimerApp" indentificaremos los archivos
 #### 📸 Captura de Ejecución
 <img width="552" height="763" alt="image" src="https://github.com/user-attachments/assets/f8046872-ab46-4367-aef9-8bb17f34b35a" />
 <img width="1762" height="185" alt="image" src="https://github.com/user-attachments/assets/d7c3a8bc-2cbf-4d66-a51f-a4690bad94f0" />
+</details>
 
+<details>
+<summary><b>📝 Práctica 8: APP MI TARJETA DE PRESENTACIÓN </b></summary>
+
+### 🎯 Descripción
+En esta práctica construi una app Android completa con mi información de contacto personal. Los temas que han sido abordados son: 
+<ul>
+	<li>
+		Column, Row, Spacer y Modifier para combinadas paraconstruir un layout completo. 
+	</li>
+	<li>
+		El uso de clip(CircleShape) para mostrar una imagen circular. 
+	</li>
+	<li>
+		Integrar estado simple (var con remember) para mostrar/ocultar información. 
+	</li>
+</ul>
+	
+#### 📸 Captura de Ejecución
+<img width="342" height="716" alt="image" src="https://github.com/user-attachments/assets/3026a278-eac6-40c1-9c10-2329b12d9460" />
+<img width="324" height="694" alt="image" src="https://github.com/user-attachments/assets/46ff4398-4a8d-4964-a89b-5ec7e5320a12" />
 
 </details>
 
