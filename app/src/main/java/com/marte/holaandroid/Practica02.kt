@@ -1,5 +1,5 @@
 //***** Ej. 1 val, var e inferencia de tipos *****//
-package com.Marte.holaandroid
+package com.marte.holaandroid
 import java.io.PrintStream
 import java.nio.charset.StandardCharsets
 import java.util.Scanner

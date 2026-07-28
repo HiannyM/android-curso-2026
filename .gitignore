@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Android Studio (configuración local)
+.idea/.name
+.idea/studiobot.xml
+.idea/deploymentTargetSelector.xml
