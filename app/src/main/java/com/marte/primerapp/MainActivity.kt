@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.marte.primerapp.practica08.TarjetaContacto
+import com.marte.primerapp.practica09.PantallaDashboard
 import com.marte.primerapp.ui.theme.PrimerAppTheme
 
 private const val TAG = "PrimerApp"
@@ -45,6 +46,14 @@ class MainActivity : ComponentActivity() {
 fun PrevisualizacionInicio() {
     PrimerAppTheme {
         PantallaInicio()
+    }
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun DashboardPreview() {
+    PrimerAppTheme {
+        PantallaDashboard()
     }
 }
 
