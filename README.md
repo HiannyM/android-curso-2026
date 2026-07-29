@@ -123,24 +123,32 @@ En un nuevo proyecto en Android Studio "PrimerApp" indentificaremos los archivos
 <summary><b>📝 Práctica 8: APP MI TARJETA DE PRESENTACIÓN </b></summary>
 
 ### 🎯 Descripción
-En esta práctica construi una app Android completa con mi información de contacto personal. Los temas que han sido abordados son: 
-<ul>
-	<li>
-		Column, Row, Spacer y Modifier para combinadas paraconstruir un layout completo. 
-	</li>
-	<li>
-		El uso de clip(CircleShape) para mostrar una imagen circular. 
-	</li>
-	<li>
-		Integrar estado simple (var con remember) para mostrar/ocultar información. 
-	</li>
-</ul>
-	
+App Android completa con mi información de contacto personal usando  Column, Row, Spacer, Modifier, clip(CircleShape) e Integrar estado simple (var con remember).
+
 #### 📸 Captura de Ejecución
 <img width="342" height="716" alt="image" src="https://github.com/user-attachments/assets/3026a278-eac6-40c1-9c10-2329b12d9460" />
 <img width="324" height="694" alt="image" src="https://github.com/user-attachments/assets/46ff4398-4a8d-4964-a89b-5ec7e5320a12" />
 
 </details>
+
+<details>
+<summary><b>📝 Práctica 9: LAYOUTS Y LISTAS EFICIENTES EN COMPOSE  </b></summary>
+
+### 🎯 Descripción
+Dashboard con lista de afirmaciones usando Modifier con weight, LazyColumn, LazyRow y Cards con elevación para elementos de lista visualmente atractivos
+
+	
+#### 📸 Captura de Ejecución
+<img width="346" height="698" alt="image" src="https://github.com/user-attachments/assets/57cafe2e-15a7-4f24-86ae-7d643fa5ad84" />
+<img width="371" height="704" alt="image" src="https://github.com/user-attachments/assets/db743092-c4e7-4562-b5bf-bc6dd6f5c09d" />
+<img width="338" height="704" alt="image" src="https://github.com/user-attachments/assets/9122427c-2033-4363-a7e5-8fcaed7b48f2" />
+<img width="351" height="671" alt="image" src="https://github.com/user-attachments/assets/59e3d9ad-dfc4-4413-a09d-a41bda9ad6d2" />
+<img width="334" height="647" alt="image" src="https://github.com/user-attachments/assets/a549df01-ce39-4691-b354-8371377df3ad" />
+<img width="349" height="686" alt="image" src="https://github.com/user-attachments/assets/5462e43f-677f-4348-ada8-07b0bdecc68c" />
+<img width="342" height="691" alt="image" src="https://github.com/user-attachments/assets/ef34a8c2-0cda-4cf2-bc11-2f67b53beb84" />
+
+</details>
+
 
 ## 🗂️ Índice de ejercicios de los examenes parciales
 
