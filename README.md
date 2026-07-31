@@ -120,7 +120,7 @@ En un nuevo proyecto en Android Studio "PrimerApp" indentificaremos los archivos
 </details>
 
 <details>
-<summary><b>📝 Práctica 8: APP MI TARJETA DE PRESENTACIÓN </b></summary>
+<summary><b>📝 Práctica 8: App mi targeta de presentación </b></summary>
 
 ### 🎯 Descripción
 App Android completa con mi información de contacto personal usando  Column, Row, Spacer, Modifier, clip(CircleShape) e Integrar estado simple (var con remember).
@@ -132,7 +132,7 @@ App Android completa con mi información de contacto personal usando  Column, Ro
 </details>
 
 <details>
-<summary><b>📝 Práctica 9: LAYOUTS Y LISTAS EFICIENTES EN COMPOSE  </b></summary>
+<summary><b>📝 Práctica 9: Layouts y listas eficientes en compose </b></summary>
 
 ### 🎯 Descripción
 Dashboard con lista de afirmaciones usando Modifier con weight, LazyColumn, LazyRow y Cards con elevación para elementos de lista visualmente atractivos
@@ -146,6 +146,18 @@ Dashboard con lista de afirmaciones usando Modifier con weight, LazyColumn, Lazy
 <img width="334" height="647" alt="image" src="https://github.com/user-attachments/assets/a549df01-ce39-4691-b354-8371377df3ad" />
 <img width="349" height="686" alt="image" src="https://github.com/user-attachments/assets/5462e43f-677f-4348-ada8-07b0bdecc68c" />
 <img width="342" height="691" alt="image" src="https://github.com/user-attachments/assets/ef34a8c2-0cda-4cf2-bc11-2f67b53beb84" />
+</details>
+
+<details>
+<summary><b>📝 Práctica 10: Material 3 y navegación entre pantallas </b></summary>
+
+### 🎯 Descripción
+App con paletas de colores personalizada y navegación entre diferentes menús en pantalla.
+
+
+### 📸 Demostración de Funcionamiento
+(<img width="486" height="1080" alt="VideoSnap_Navegación entre pantallas" src="https://github.com/user-attachments/assets/3a570cee-6340-4b77-9490-70b64ad02152" />
+  )
 
 </details>
 
