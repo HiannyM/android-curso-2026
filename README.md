@@ -89,8 +89,6 @@ Implementar diferentes tipos de clases especiales aplicando enum, sealed y data 
 
 #### 📸 Captura de Ejecución
 <img width="1084" height="698" alt="image" src="https://github.com/user-attachments/assets/1dcb921b-1601-44f9-a538-7a8354aae0c0" />
-
-
 </details>
 
 <details>
@@ -158,8 +156,23 @@ App con paletas de colores personalizada y navegación entre diferentes menús e
 ### 📸 Demostración de Funcionamiento
 (<img width="486" height="1080" alt="VideoSnap_Navegación entre pantallas" src="https://github.com/user-attachments/assets/3a570cee-6340-4b77-9490-70b64ad02152" />
   )
+</details>
+
+<details>
+<summary><b>📝 Práctica 11: Estado y ciclo de vida en Compose </b></summary>
+
+### 🎯 Descripción
+Aplicación de la recomposicion y validación de campos con una app de contador y formulario de registro.
+
+### 📸 Demostración de Funcionamiento
+
+
+https://github.com/user-attachments/assets/ff078c67-7cad-4933-b325-c6060bc407c0
+
+
 
 </details>
+
 
 
 ## 🗂️ Índice de ejercicios de los examenes parciales
